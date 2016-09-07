@@ -5,8 +5,15 @@ Being able to manage changes to your code and share it with others is one of the
 
 Luckily, there are wonderful tools for tracking changes to your code (git), and for facilitating collaboration (GitHub). Git and GitHub are the industry standards for these family of tasks which we'll refer to as **version control**.
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Contents**
+
+- [Resources](#resources)
+- [Git](#git)
+- [GitHub](#github)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Resources
 - [Try Git](https://try.github.io/levels/1/challenges/1): An interactive tutorial for learning `git`
