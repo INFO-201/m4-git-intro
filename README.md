@@ -56,7 +56,7 @@ GitHub is the most popular open-source web-based repository hosting service.  In
 The important thing to keep in mind is that GitHub doesn't just store the a copy of your code files in your repository -- it stores the **entire database of changes** to the files. This allows other developers to view the files at an earlier point in time.  
 
 ### Configuration
-Before we can begin using git and GitHub together, we'll need to use our terminal to configure the GitHub user. This tells your machine which GitHub user you are, granting you permission to your own repositories. You'll only need to **do this once** on your own machine, though if you are using another computer (lab machine), you'll need to remember to do it.
+Before we can begin using git and GitHub together, we'll need to [sign up](https://github.com/join) for a GitHub account, and then use our terminal to configure your machine for your GitHub account. This tells your machine which GitHub user you are, granting you permission to your own repositories. You'll only need to **do this once** on your own machine, though if you are using another computer (lab machine), you'll need to remember to do it.
 
 Once you open your terminal, you'll need to specify your name and GitHub username:
 
