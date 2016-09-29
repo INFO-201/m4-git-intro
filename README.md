@@ -34,7 +34,7 @@ All of the files in a project directory (referred to as a `repository`, or `repo
 
 Git allows you to roll back to a previous snapshot of your project called a `commit`.  When you want to take a snapshot of your work, you'll need to `add` your the changes to your files to a **staging area**.  You can think of a staging area (literally) like a staging area.  The changes that you want to be included in your next snapshot need to be put on stage in order to be captured by the `commit`.  Each time you take a snapshot (`commit`), you'll need to include a short message that describes the set of changes.  These steps fit together as follows:
 
-![git-process](imgs/git-process.gif)
+![local git process](imgs/local-git-process.png)
 
 Here is additional information on each (of these) `git` commands (note, this **_is not_** a full list -- see [documentation](https://git-scm.com/docs)):
 
@@ -72,15 +72,15 @@ See [this article](https://help.github.com/articles/set-up-git/) for more inform
 ### Workflow Example
 Here is _one_ example of a workflow you may choose when working with a project. Let's imagine that there's a repository online that you want to use as a starting point for a project (**this is how we will do class/lab exercises**). First, you may want **your own cloud copy** of a repository on GitHub.  To create your own copy, you'll simply click the **fork** button in a GitHub repository:
 
-![screenshot of fork button on GitHub](imgs/fork.png)
+![fork button on GitHub](imgs/fork.png)
 
 That will create a copy of the **entire repo** on your GitHub account. In order to start working on the files, you'll need to get them on your computer (they're still only in the cloud). To do so, you will clone **your forked repository** (_not_ the original one) to your machine. This will create a local copy of the files **as well as their entire history** on your local machine. We'll use the terminal to clone the repository, but we need to get some information about it first. To get the URL location of the repository, click the **Clone or Download** button, then click on the clipboard icon to copy the URL to your clipboard:
 
-![screenshot of clone button on GitHub](imgs/clone.png)
+![clone button on GitHub](imgs/clone.png)
 
 Then, on your terminal, you could use the `git clone` command described below.  Here is a diagram of the full process:
 
-![git-process-full](imgs/git-process-full.gif)
+![git with github diagram](imgs/full-git-process.png)
 
 
 Here are additional `git` commands that allow you to interact easily with GitHub:
